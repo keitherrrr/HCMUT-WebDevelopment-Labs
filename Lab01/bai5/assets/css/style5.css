@@ -1,0 +1,139 @@
+html, body{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    position: relative; 
+    min-height: 750px; 
+    background: url('/assets/images03/bg-body.png') top center   no-repeat ;
+    background-size: 100% 100%;  
+}
+
+#main{
+    position: absolute; 
+    background-color: #fff; 
+    min-height: 600px; 
+    width: 670px; 
+}
+#header{
+    padding-left: 16px; 
+    height: 100px; 
+    background-image: url('/assets/images03/bg-header.jpg');
+}
+#header i{
+    opacity: 0.3; 
+    font-weight: 600; 
+    font-size: 25px; 
+    line-height: 100px; 
+}
+
+#nav{
+    min-height: 50px; 
+    background: url('/assets/images03/bg-menu.png') top center /cover no-repeat;
+}
+#nav ul{
+    display: inline-block; 
+}
+#nav li{
+    margin: 0 16px; 
+    color: white; 
+    font-size: 15px; 
+    display: inline-block; 
+}
+
+
+#contain .about{
+    padding: 8px 16px 40px 8px; 
+}
+
+#contain .about img{
+    width: 95%; 
+}
+.about h2{
+    color: #CBD364; 
+    margin: 8px 0; 
+}
+.about .date{
+    margin: 8px 0; 
+    opacity: 0.3; 
+}
+.about .para{
+    text-align: justify;
+    font-weight: 500; 
+    line-height: 1.6; 
+    padding: 12px 0; 
+}
+
+.interact{
+    display: flex; 
+}
+#contain{
+    padding: 0 8px; 
+    display: flex; 
+}
+#contain .about .icon{
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+}
+.about{
+    flex: 3; 
+}
+.about span{
+    font-size: 20px; 
+    margin-left: 16px; 
+    color: #80CBDE; 
+}
+
+.live{
+    height: 40%; 
+    flex:1; 
+    background-color: #ccc;
+    border-radius: 10px; 
+}
+.live .live-feed{
+    height: 25px; 
+    background: url('/assets/images03/bg-feed.gif') top center /contain no-repeat;
+}
+.live .father{
+    margin-top: 20px;
+    margin-bottom: 32px;  
+}
+.line{
+    opacity: 0.1; 
+    height: 1px; 
+    background-color: black; 
+}
+.father p{
+    margin: 8px 0 8px 4px; 
+}
+
+.live-feed{
+    overflow: auto;
+    display: flex; 
+    justify-content: center;
+}
+.live-feed img{
+    border-radius: 5px; 
+    margin: auto; 
+}
+
+#footer{
+    position: relative; 
+    height: 80px; 
+    background: url('/assets/images03/bg-footer.jpg') top center /cover no-repeat;
+}
+
+#footer p{
+    color: white; 
+    font-weight: 15px; 
+
+    position: absolute; 
+    margin: 0; 
+    left: 16px; 
+    bottom: 16px; 
+}
